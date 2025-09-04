@@ -29,6 +29,12 @@ export const TrueButton = ({ onPress }: ButtonProps) => (
     </Pressable>
   );
 
+  export const ShowAnswerButton = ({ onPress }: ButtonProps) => (
+    <Pressable onPress={onPress} style={styles.button}>
+      <Text style={[styles.text, { marginRight: 6 }]}>Show Answers</Text>
+    </Pressable>
+  );
+
 
 const styles = StyleSheet.create({
   container: {
