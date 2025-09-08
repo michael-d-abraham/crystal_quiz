@@ -2,9 +2,9 @@ import { router } from "expo-router";
 import { addOrientationChangeListener, Orientation, removeOrientationChangeListener, unlockAsync } from "expo-screen-orientation";
 import React, { useEffect, useState } from "react";
 import { Pressable, View } from "react-native";
-import ColorText from "./components/ColorText";
-import { FalseButton, NextButton, PrevButton, TrueButton } from "./components/buttons";
-import { questionBank } from "./questionBank";
+import ColorText from "../components/ColorText";
+import { FalseButton, NextButton, PrevButton, TrueButton } from "../components/buttons";
+import { questionBank } from "../questionBank";
 
 export default function QuizScreen() {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -28,6 +28,7 @@ export default function QuizScreen() {
     const handleAnswer = (answer: boolean) => {
       if (answer === currentQuestion.answer) {
         alert("That is correct!\n\n" + currentQuestion.explanation);
+        handleNext()
       } else {
         alert("That is incorrect!\n\n" + currentQuestion.explanation);
       }

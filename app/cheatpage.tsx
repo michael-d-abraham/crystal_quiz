@@ -1,9 +1,9 @@
 import { useLocalSearchParams } from "expo-router";
 import React from "react";
 import { View } from "react-native";
-import ColorText from "./components/ColorText";
-import { ShowAnswerButton } from "./components/buttons";
-import { questionBank } from "./questionBank";
+import ColorText from "../components/ColorText";
+import { ShowAnswerButton } from "../components/buttons";
+import { questionBank } from "../questionBank";
 
 export default function CheatPage() {
   const { i } = useLocalSearchParams();
