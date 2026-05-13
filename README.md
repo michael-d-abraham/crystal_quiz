@@ -4,13 +4,9 @@ A small cross-platform quiz app about crystals—answer true/false questions, re
 
 ## Demo
 
-Screen recording (use the controls to play):
+![Crystal Quiz — quick demo](readmepics/CrystalDemo.gif)
 
-<video width="280" controls playsinline>
-  <source src="https://raw.githubusercontent.com/michael-d-abraham/crystal_quiz/main/readmepics/CrystalDemo.mp4" type="video/mp4" />
-</video>
-
-If that doesn’t render (some Markdown viewers block video), open the file on GitHub: [`readmepics/CrystalDemo.mp4`](https://github.com/michael-d-abraham/crystal_quiz/blob/main/readmepics/CrystalDemo.mp4).
+*GIF loops automatically in GitHub and most Markdown viewers.*
 
 ## What it is
 
