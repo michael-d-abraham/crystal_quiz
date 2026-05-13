@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+# Crystal Quiz
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A small cross-platform quiz app about crystals—answer true/false questions, read explanations, and browse questions at your own pace.
 
-## Get started
+## Demo
 
-1. Install dependencies
+Screen recording (use the controls to play):
 
-   ```bash
-   npm install
-   ```
+<video width="280" controls playsinline>
+  <source src="https://raw.githubusercontent.com/michael-d-abraham/crystal_quiz/main/readmepics/CrystalDemo.mp4" type="video/mp4" />
+</video>
 
-2. Start the app
+If that doesn’t render (some Markdown viewers block video), open the file on GitHub: [`readmepics/CrystalDemo.mp4`](https://github.com/michael-d-abraham/crystal_quiz/blob/main/readmepics/CrystalDemo.mp4).
 
-   ```bash
-   npx expo start
-   ```
+## What it is
 
-In the output, you'll find options to open the app in a
+**Crystal Quiz** is a personal portfolio project: an interactive true/false trivia experience focused on crystal lore (for example, properties often associated with stones like rose quartz or black tourmaline). It demonstrates mobile UI patterns, state handling, and navigation in a real app shell—not just a static demo.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Highlights
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **Quiz flow** — True/false answers with immediate feedback and short explanations.
+- **Navigation** — Move between questions; optional “peek” screen for the current question’s answer.
+- **Responsive layout** — Button spacing adapts when the device rotates (portrait vs landscape).
 
-## Get a fresh project
+## Tech stack
 
-When you're ready, run:
+- **React Native** with **Expo** (SDK 53)
+- **TypeScript**
+- **Expo Router** for file-based routing
+- **React 19**
+
+Runs on **iOS**, **Android**, and **web** via Expo.
+
+## Run it locally
 
 ```bash
-npm run reset-project
+npm install
+npm start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Then open in the Expo Go app or press `i` / `a` / `w` for iOS simulator, Android emulator, or web.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+*Portfolio piece — built to showcase React Native, TypeScript, and mobile UX.*
